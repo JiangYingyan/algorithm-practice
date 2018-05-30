@@ -14,10 +14,10 @@ int main(){
     int Index1 = -1;
     int Index2 = -1;
     int MarixSize;
-    cout << "input marix size(no more than 10000):";
+    cout << "input matrix size(no more than 10000):";
     cin >> MarixSize;
     int A[10000];
-    cout << "input marix:";
+    cout << "input matrix:";
     for(int i = 0 ; i < MarixSize; i++){
         cin >> A[i];
     }
